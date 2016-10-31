@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: TrashcanMonster.ma
-//Last modified: Mon, Oct 31, 2016 02:38:11 PM
+//Last modified: Mon, Oct 31, 2016 02:39:19 PM
 //Codeset: 1252
 requires maya "2017";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "1.3.0.0";
