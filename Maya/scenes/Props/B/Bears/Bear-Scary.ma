@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Bear-Scary.ma
-//Last modified: Mon, Nov 07, 2016 03:21:12 PM
+//Last modified: Mon, Nov 07, 2016 03:30:58 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiStandard"
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "CEE8758D-4A6A-A4FB-DECC-668BB0019ACF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.140461612096436 9.5677344542682441 -1.7288849276282425 ;
-	setAttr ".r" -type "double3" 1420.4616472704456 -985.39999999926272 -2.5444437451708134e-14 ;
+	setAttr ".t" -type "double3" 3.840437435367738 11.048027076756114 -0.79861930762440414 ;
+	setAttr ".r" -type "double3" 1390.4616472790387 -975.40000000054943 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "5E2B7654-4B62-E370-E5CA-3DBE58E82418";
 	setAttr -k off ".v" no;
@@ -24,7 +24,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 14.939246907274358;
+	setAttr ".coi" 6.6395653166772011;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
